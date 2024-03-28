@@ -1,10 +1,12 @@
-
-
 function Central() {
+  
   return (
-    <div>
+    <main>
         <h2>Pantalla Inicial</h2>
-    </div>
+        
+        
+
+    </main>
   )
 }
 

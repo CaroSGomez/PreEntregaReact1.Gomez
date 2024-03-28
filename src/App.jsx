@@ -5,6 +5,7 @@ import './App.css'
 import Header from './Header'
 import Footer from './Footer'
 import Central from './layout/Central.jsx'
+import NavBar from './layout/NavBar.jsx'
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
   return (
     <>
       <Header/>
+      <NavBar/>
       <Central/>
       <Footer/>
     </>

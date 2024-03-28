@@ -1,13 +1,9 @@
 
 function Header() {
   return (
-    <header>
-        <h1>Nueva App</h1>
-        <nav>
-            <a href="#">Opcion 1 </a>
-            <a href="#">Opcion 2 </a>
-            <a href="#">Opcion 3 </a>
-        </nav>
+    <header className="bg-slate-400 p-4 flex justify-between shadow-md">
+        <h1 id="titulo" className="encabezado">Ofertas zarpadas</h1>
+        
     </header>
   )
 }
