@@ -1,24 +1,20 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Header from './Header'
-import Footer from './Footer'
-import Central from './layout/Central.jsx'
-import NavBar from './layout/NavBar.jsx'
-
+import "./App.css";
+import Header from "./Header";
+import NavBar from "./components/NavBar.jsx"
+import Main from "./components/Main.jsx";
+import ItemListContainer from "./ItemListContainer.jsx";
+import Footer from "./Footer";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <Header/>
+      <Header />
       <NavBar/>
-      <Central/>
-      <Footer/>
+      <ItemListContainer greeting="Carolina" />
+      <Main />
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
